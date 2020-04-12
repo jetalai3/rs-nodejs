@@ -1,3 +1,5 @@
+const { ErrorHandler } = require('../../common/errorHandler');
+
 let boardsArray = [];
 
 const getAll = async () => {
@@ -18,7 +20,7 @@ const getBoardById = async id => {
   if (findBoard) {
     return findBoard;
   }
-  throw new Error('Board not found');
+  throw new ErrorHandler(404, 'Board not found');
 };
 
 const updateBoardById = async (id, body) => {
@@ -33,7 +35,7 @@ const updateBoardById = async (id, body) => {
     return board;
   });
   if (!findFlag) {
-    throw new Error('Board not found');
+    throw new ErrorHandler(404, 'Board not found');
   }
 };
 
@@ -48,7 +50,7 @@ const deleteBoardById = async id => {
     return board;
   });
   if (!findFlag) {
-    throw new Error('Board not found');
+    throw new ErrorHandler(404, 'Board not found');
   }
 };
 

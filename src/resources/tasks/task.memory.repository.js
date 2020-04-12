@@ -1,3 +1,5 @@
+const { ErrorHandler } = require('../../common/ErrorHandler');
+
 let tasksArray = [];
 
 const getAll = async () => {
@@ -10,7 +12,7 @@ const addTask = async (boardId, task) => {
   const addFlag = tasks.push(newTask);
 
   if (!addFlag) {
-    throw new Error("Couldn't add new task");
+    throw new ErrorHandler(404, "Couldn't add new task");
   } else {
     return newTask;
   }
@@ -23,7 +25,7 @@ const getTaskByBoardId = async id => {
   if (findTasks) {
     return findTasks;
   }
-  throw new Error('Task not found');
+  throw new ErrorHandler(404, 'Task not found');
 };
 
 const getTaskByBoardAndTaskId = async (id, boardId) => {
@@ -35,7 +37,7 @@ const getTaskByBoardAndTaskId = async (id, boardId) => {
   if (findTask) {
     return findTask;
   }
-  throw new Error('Task not found');
+  throw new ErrorHandler(404, 'Task not found');
 };
 
 const updateTaskById = async (id, boardId, body) => {
@@ -50,7 +52,7 @@ const updateTaskById = async (id, boardId, body) => {
     return task;
   });
   if (!findFlag) {
-    throw new Error('Task not found');
+    throw new ErrorHandler(404, 'Task not found');
   }
 };
 
@@ -65,7 +67,7 @@ const deleteTaskById = async (id, boardId) => {
     return task;
   });
   if (!findFlag) {
-    throw new Error('Task not found');
+    throw new ErrorHandler(404, 'Task not found');
   }
 };
 

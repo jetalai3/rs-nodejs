@@ -1,0 +1,148 @@
+{"message":"    GET /users params:{} body:{} 200 [4ms]","level":"info","timestamp":"2020-04-12T20:29:52.882Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:52.896Z"}
+{"message":"    GET /users params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.898Z"}
+{"message":"    GET /users/45fa4f56-1f6e-4ef3-8eff-badd4c44b42c params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:52.900Z"}
+{"message":"    DELETE /users/45fa4f56-1f6e-4ef3-8eff-badd4c44b42c params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.901Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.903Z"}
+{"message":"    DELETE /users/876d4455-46ab-4acf-851e-4a9a8674d2db params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.907Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.909Z"}
+{"message":"    PUT /users/896f4636-7a32-4c3f-8661-e2fdcb72ffff params:{} body:{\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"896f4636-7a32-4c3f-8661-e2fdcb72ffff\"} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:52.911Z"}
+{"message":"    GET /users/896f4636-7a32-4c3f-8661-e2fdcb72ffff params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.912Z"}
+{"message":"    DELETE /users/896f4636-7a32-4c3f-8661-e2fdcb72ffff params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.913Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.915Z"}
+{"message":"    DELETE /users/9275a258-d621-4cda-9ea6-93828a06c46c params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.916Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:52.918Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.919Z"}
+{"message":"    POST /boards/948efa9f-ab41-40a3-af33-febb05b47aac/tasks params:{} body:{\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"4b0410cd-57ea-41dc-abdd-3c5f6c8351c5\",\"boardId\":\"948efa9f-ab41-40a3-af33-febb05b47aac\"} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:52.922Z"}
+{"message":"    POST /boards/948efa9f-ab41-40a3-af33-febb05b47aac/tasks params:{} body:{\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"4b0410cd-57ea-41dc-abdd-3c5f6c8351c5\",\"boardId\":\"948efa9f-ab41-40a3-af33-febb05b47aac\"} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:52.923Z"}
+{"message":"    DELETE /users/4b0410cd-57ea-41dc-abdd-3c5f6c8351c5 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.924Z"}
+{"message":"    GET /boards/948efa9f-ab41-40a3-af33-febb05b47aac/tasks/b8f9d3f9-ef62-427f-9f48-42b8de9c56f6 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.925Z"}
+{"message":"    GET /boards/948efa9f-ab41-40a3-af33-febb05b47aac/tasks/b9f9ad0f-35de-43c6-a1ad-2dff33c6313a params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.927Z"}
+{"message":"    DELETE /boards/948efa9f-ab41-40a3-af33-febb05b47aac/tasks/b8f9d3f9-ef62-427f-9f48-42b8de9c56f6 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.928Z"}
+{"message":"    DELETE /boards/948efa9f-ab41-40a3-af33-febb05b47aac/tasks/b9f9ad0f-35de-43c6-a1ad-2dff33c6313a params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.929Z"}
+{"message":"    DELETE /boards/948efa9f-ab41-40a3-af33-febb05b47aac params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:52.930Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.046Z"}
+{"message":"    GET /boards params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.050Z"}
+{"message":"    GET /boards params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.055Z"}
+{"message":"    GET /boards/4c93458e-db30-4fde-a5c6-59995d3bf4b5 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.060Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.062Z"}
+{"message":"    DELETE /boards/14bbb64e-d5f1-43cc-9582-6e6faa03f7b4 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.064Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.065Z"}
+{"message":"    PUT /boards/f3c07cca-fbc1-4a35-a57d-3a7bb91ec5b3 params:{} body:{\"id\":\"f3c07cca-fbc1-4a35-a57d-3a7bb91ec5b3\",\"title\":\"Autotest updated board\",\"columns\":[{\"id\":\"e7722d56-9372-444c-9099-c07636d0c513\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"24798ada-6f1c-4957-a0d1-468bd76a21c6\",\"title\":\"Sprint\",\"order\":2}]} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.067Z"}
+{"message":"    GET /boards/f3c07cca-fbc1-4a35-a57d-3a7bb91ec5b3 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.068Z"}
+{"message":"    DELETE /boards/f3c07cca-fbc1-4a35-a57d-3a7bb91ec5b3 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.069Z"}
+{"message":"    GET /boards params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.070Z"}
+{"message":"    DELETE /boards/4c93458e-db30-4fde-a5c6-59995d3bf4b5 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.072Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-12T20:29:53.074Z"}
+{"message":"    GET /boards/4c93458e-db30-4fde-a5c6-59995d3bf4b5 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.074Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.076Z"}
+{"message":"    POST /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks params:{} body:{\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"4fecb60e-845b-457d-9611-f2f84e64d4aa\",\"userId\":null,\"columnId\":null} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.079Z"}
+{"message":"    POST /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks params:{} body:{\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"4fecb60e-845b-457d-9611-f2f84e64d4aa\",\"userId\":null,\"columnId\":null} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.080Z"}
+{"message":"    POST /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks params:{} body:{\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"4fecb60e-845b-457d-9611-f2f84e64d4aa\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.080Z"}
+{"message":"    POST /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks params:{} body:{\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"4fecb60e-845b-457d-9611-f2f84e64d4aa\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.081Z"}
+{"message":"    POST /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks params:{} body:{\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"4fecb60e-845b-457d-9611-f2f84e64d4aa\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.082Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/88458b58-bb0f-4b90-8b04-4fa2236f268e params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.087Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/59b836e1-0a36-4920-9c1a-cd13c61002c8 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.088Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/3d33dab6-bcc6-492a-8fc3-e7eb4be00c48 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.089Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/7e7ff565-053f-49ec-b92f-e64d019e606a params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.090Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/690ba03b-91eb-4384-acc0-c67603e96ac2 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.091Z"}
+{"message":"    DELETE /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.092Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.094Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/88458b58-bb0f-4b90-8b04-4fa2236f268e params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.095Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.095Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/59b836e1-0a36-4920-9c1a-cd13c61002c8 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.096Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.096Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/3d33dab6-bcc6-492a-8fc3-e7eb4be00c48 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.097Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.097Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/7e7ff565-053f-49ec-b92f-e64d019e606a params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.098Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.098Z"}
+{"message":"    GET /boards/4fecb60e-845b-457d-9611-f2f84e64d4aa/tasks/690ba03b-91eb-4384-acc0-c67603e96ac2 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.099Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.194Z"}
+{"message":"    POST /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks params:{} body:{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.196Z"}
+{"message":"    GET /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.197Z"}
+{"message":"    GET /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.201Z"}
+{"message":"    GET /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks/0e1c2b12-0e9f-4a47-bc1c-81e16014aa9f params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.202Z"}
+{"message":"    POST /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks params:{} body:{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.204Z"}
+{"message":"    DELETE /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks/9f1f51a8-4bbc-496c-a2ee-b14143c43dc1 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.205Z"}
+{"message":"    POST /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks params:{} body:{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.207Z"}
+{"message":"    PUT /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks/b1dc6605-7e52-4a8c-ae3c-eeb5eba4f928 params:{} body:{\"id\":\"b1dc6605-7e52-4a8c-ae3c-eeb5eba4f928\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"86d58c7a-933f-4172-8e60-6a35b13efedb\",\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.209Z"}
+{"message":"    GET /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks/b1dc6605-7e52-4a8c-ae3c-eeb5eba4f928 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.211Z"}
+{"message":"    GET /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks/0e1c2b12-0e9f-4a47-bc1c-81e16014aa9f params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.216Z"}
+{"message":"    DELETE /boards/86d58c7a-933f-4172-8e60-6a35b13efedb/tasks/0e1c2b12-0e9f-4a47-bc1c-81e16014aa9f params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:29:53.217Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.218Z"}
+{"message":"    GET /boards/0e1c2b12-0e9f-4a47-bc1c-81e16014aa9f/tasks/undefined params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.219Z"}
+{"message":"    DELETE /boards/86d58c7a-933f-4172-8e60-6a35b13efedb params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:29:53.220Z"}
+{"message":"    GET /users params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.404Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.412Z"}
+{"message":"    GET /users params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.414Z"}
+{"message":"    GET /users/00f8924b-d8a8-4231-827e-4b3c5ef2ccc4 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.415Z"}
+{"message":"    DELETE /users/00f8924b-d8a8-4231-827e-4b3c5ef2ccc4 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.417Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.418Z"}
+{"message":"    DELETE /users/7619d3b9-fd09-41a4-bc2d-5b9f1961644f params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.422Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.424Z"}
+{"message":"    PUT /users/6589197c-b063-4ada-8fc8-72c45bf86bd9 params:{} body:{\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"6589197c-b063-4ada-8fc8-72c45bf86bd9\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.426Z"}
+{"message":"    GET /users/6589197c-b063-4ada-8fc8-72c45bf86bd9 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.427Z"}
+{"message":"    DELETE /users/6589197c-b063-4ada-8fc8-72c45bf86bd9 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.428Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.430Z"}
+{"message":"    DELETE /users/e2079335-ed90-4026-abcc-38c2da71ef24 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.431Z"}
+{"message":"    POST /users params:{} body:{\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.433Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.434Z"}
+{"message":"    POST /boards/02269d6f-08c8-4b3c-917b-651feb17219a/tasks params:{} body:{\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"userId\":\"cd3cacec-e051-4836-855e-7340715d237f\",\"boardId\":\"02269d6f-08c8-4b3c-917b-651feb17219a\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.435Z"}
+{"message":"    POST /boards/02269d6f-08c8-4b3c-917b-651feb17219a/tasks params:{} body:{\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"userId\":\"cd3cacec-e051-4836-855e-7340715d237f\",\"boardId\":\"02269d6f-08c8-4b3c-917b-651feb17219a\"} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.436Z"}
+{"message":"    DELETE /users/cd3cacec-e051-4836-855e-7340715d237f params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.438Z"}
+{"message":"    GET /boards/02269d6f-08c8-4b3c-917b-651feb17219a/tasks/2e8a5468-1e90-4c05-b074-37bdfd3f5f39 params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.440Z"}
+{"message":"    GET /boards/02269d6f-08c8-4b3c-917b-651feb17219a/tasks/c840e16d-838e-4d0a-a967-9116215f760b params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.441Z"}
+{"message":"    DELETE /boards/02269d6f-08c8-4b3c-917b-651feb17219a/tasks/2e8a5468-1e90-4c05-b074-37bdfd3f5f39 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.443Z"}
+{"message":"    DELETE /boards/02269d6f-08c8-4b3c-917b-651feb17219a/tasks/c840e16d-838e-4d0a-a967-9116215f760b params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.444Z"}
+{"message":"    DELETE /boards/02269d6f-08c8-4b3c-917b-651feb17219a params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.445Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.559Z"}
+{"message":"    GET /boards params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.563Z"}
+{"message":"    GET /boards params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.571Z"}
+{"message":"    GET /boards/e0e2c776-3ae3-43f6-b8ec-c6bc7a6168ac params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.574Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.576Z"}
+{"message":"    DELETE /boards/f8035822-e41f-4b16-b115-d0cf0151fede params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.578Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.592Z"}
+{"message":"    PUT /boards/fce12ba0-cf15-4eca-ab9e-a783f422351c params:{} body:{\"id\":\"fce12ba0-cf15-4eca-ab9e-a783f422351c\",\"title\":\"Autotest updated board\",\"columns\":[{\"id\":\"f11577c6-003c-4a32-a927-a11ed7d353b1\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"a4e50f4b-6394-4bf2-884e-9b9649facf1f\",\"title\":\"Sprint\",\"order\":2}]} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.594Z"}
+{"message":"    GET /boards/fce12ba0-cf15-4eca-ab9e-a783f422351c params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.595Z"}
+{"message":"    DELETE /boards/fce12ba0-cf15-4eca-ab9e-a783f422351c params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.596Z"}
+{"message":"    GET /boards params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.598Z"}
+{"message":"    DELETE /boards/e0e2c776-3ae3-43f6-b8ec-c6bc7a6168ac params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.599Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-12T20:30:16.600Z"}
+{"message":"    GET /boards/e0e2c776-3ae3-43f6-b8ec-c6bc7a6168ac params:{} body:{} 404 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.600Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.602Z"}
+{"message":"    POST /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks params:{} body:{\"title\":\"Task #1\",\"order\":1,\"description\":\"Lorem ipsum\",\"boardId\":\"67945550-77ac-4c7a-af21-51f100b8cb58\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.604Z"}
+{"message":"    POST /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks params:{} body:{\"title\":\"Task #2\",\"order\":2,\"description\":\"Lorem ipsum\",\"boardId\":\"67945550-77ac-4c7a-af21-51f100b8cb58\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.605Z"}
+{"message":"    POST /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks params:{} body:{\"title\":\"Task #3\",\"order\":3,\"description\":\"Lorem ipsum\",\"boardId\":\"67945550-77ac-4c7a-af21-51f100b8cb58\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.606Z"}
+{"message":"    POST /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks params:{} body:{\"title\":\"Task #4\",\"order\":4,\"description\":\"Lorem ipsum\",\"boardId\":\"67945550-77ac-4c7a-af21-51f100b8cb58\",\"userId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.606Z"}
+{"message":"    POST /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks params:{} body:{\"title\":\"Task #5\",\"order\":5,\"description\":\"Lorem ipsum\",\"boardId\":\"67945550-77ac-4c7a-af21-51f100b8cb58\",\"userId\":null,\"columnId\":null} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.608Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/e581929b-26df-4d98-864f-9f5a889121f6 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.612Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/633fba41-7bd9-432a-ba1b-47f0b1431ca0 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.613Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/cfbe3641-a757-4d76-8a2b-782fbd42e7c8 params:{} body:{} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.614Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/4668fb03-9f15-4c3c-b27c-6279274aaf1f params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.614Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/6f40c10a-9050-41ac-acb4-23d4fd64256f params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.615Z"}
+{"message":"    DELETE /boards/67945550-77ac-4c7a-af21-51f100b8cb58 params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.616Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.618Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/e581929b-26df-4d98-864f-9f5a889121f6 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.619Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.619Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/633fba41-7bd9-432a-ba1b-47f0b1431ca0 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.620Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.620Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/cfbe3641-a757-4d76-8a2b-782fbd42e7c8 params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.621Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.621Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/4668fb03-9f15-4c3c-b27c-6279274aaf1f params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.622Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.622Z"}
+{"message":"    GET /boards/67945550-77ac-4c7a-af21-51f100b8cb58/tasks/6f40c10a-9050-41ac-acb4-23d4fd64256f params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.623Z"}
+{"message":"    POST /boards params:{} body:{\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.719Z"}
+{"message":"    POST /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks params:{} body:{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null} 200 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.721Z"}
+{"message":"    GET /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.722Z"}
+{"message":"    GET /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.725Z"}
+{"message":"    GET /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks/0b464237-814c-4352-96d2-3f193a9550bb params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.726Z"}
+{"message":"    POST /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks params:{} body:{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.728Z"}
+{"message":"    DELETE /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks/1c8a1caf-99e1-4070-897e-1c5ed652fa7d params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.729Z"}
+{"message":"    POST /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks params:{} body:{\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.731Z"}
+{"message":"    PUT /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks/05175f00-33cd-49ca-a41f-431c1cbdf71c params:{} body:{\"id\":\"05175f00-33cd-49ca-a41f-431c1cbdf71c\",\"title\":\"Autotest updated task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":\"2c54e951-7cb9-4de0-8a39-773797fdef2b\",\"columnId\":null} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.732Z"}
+{"message":"    GET /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks/05175f00-33cd-49ca-a41f-431c1cbdf71c params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.733Z"}
+{"message":"    GET /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks/0b464237-814c-4352-96d2-3f193a9550bb params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.734Z"}
+{"message":"    DELETE /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b/tasks/0b464237-814c-4352-96d2-3f193a9550bb params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.735Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.737Z"}
+{"message":"    GET /boards/0b464237-814c-4352-96d2-3f193a9550bb/tasks/undefined params:{} body:{} 404 [1ms]","level":"info","timestamp":"2020-04-12T20:30:16.738Z"}
+{"message":"    DELETE /boards/2c54e951-7cb9-4de0-8a39-773797fdef2b params:{} body:{} 200 [0ms]","level":"info","timestamp":"2020-04-12T20:30:16.741Z"}

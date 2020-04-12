@@ -1,3 +1,5 @@
+const { ErrorHandler } = require('../../common/ErrorHandler');
+
 let usersArray = [];
 
 const getAll = async () => {
@@ -9,7 +11,7 @@ const addUser = async user => {
   const addFlag = users.push(user);
 
   if (!addFlag) {
-    throw new Error("Couldn't add new user");
+    throw new ErrorHandler(404, "Couldn't add new user");
   }
 };
 
@@ -33,7 +35,7 @@ const updateUserById = async (id, body) => {
   });
 
   if (!findFlag) {
-    throw new Error('User not found');
+    throw new ErrorHandler(404, 'User not found');
   }
 };
 
@@ -50,7 +52,7 @@ const deleteUserById = async id => {
   });
 
   if (!findFlag) {
-    throw new Error('User not found');
+    throw new ErrorHandler(404, 'User not found');
   }
 };
 
