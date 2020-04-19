@@ -1,14 +1,170 @@
-{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-12T20:29:53.074Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.094Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.095Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.096Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.097Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.098Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:29:53.218Z"}
-{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-12T20:30:16.600Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.618Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.619Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.620Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.621Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.622Z"}
-{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-12T20:30:16.737Z"}
+{"message":"   [Error inside 'uncaughtException' event] Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (net.js:1309:16)\n    at listenInCluster (net.js:1357:12)\n    at Server.listen (net.js:1445:7)\n    at Function.listen (F:\\Projects\\rs-nodejs\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (F:\\Projects\\rs-nodejs\\src\\server.js:8:5)\n    at Module._compile (internal/modules/cjs/loader.js:1157:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)\n    at Module.load (internal/modules/cjs/loader.js:1001:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:900:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)\n    at internal/main/run_main_module.js:18:47","level":"error","timestamp":"2020-04-19T22:21:00.923Z"}
+{"message":"   Status: 500 - Board is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.474Z"}
+{"message":"   Status: 500 - Board is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.489Z"}
+{"message":"   Status: 500 - Task is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.495Z"}
+{"message":"   Status: 500 - tasksService.getTaskByBoardId is not a function","level":"error","timestamp":"2020-04-19T22:21:37.498Z"}
+{"message":"   Status: 500 - tasksService.getTaskByBoardId is not a function","level":"error","timestamp":"2020-04-19T22:21:37.504Z"}
+{"message":"   Status: 500 - Task is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.507Z"}
+{"message":"   Status: 500 - Task is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.511Z"}
+{"message":"   Status: 500 - tasksService.updateTaskById is not a function","level":"error","timestamp":"2020-04-19T22:21:37.513Z"}
+{"message":"   Status: 500 - tasksService.getTaskByBoardAndTaskId is not a function","level":"error","timestamp":"2020-04-19T22:21:37.516Z"}
+{"message":"   Status: 500 - boardService.deleteBoardById is not a function","level":"error","timestamp":"2020-04-19T22:21:37.518Z"}
+{"message":"   Status: 500 - usersService.addUser is not a function","level":"error","timestamp":"2020-04-19T22:21:37.584Z"}
+{"message":"   Status: 500 - usersService.addUser is not a function","level":"error","timestamp":"2020-04-19T22:21:37.588Z"}
+{"message":"   Status: 500 - usersService.addUser is not a function","level":"error","timestamp":"2020-04-19T22:21:37.592Z"}
+{"message":"   Status: 500 - usersService.updateUserById is not a function","level":"error","timestamp":"2020-04-19T22:21:37.594Z"}
+{"message":"   Status: 500 - usersService.addUser is not a function","level":"error","timestamp":"2020-04-19T22:21:37.596Z"}
+{"message":"   Status: 500 - usersService.deleteUserById is not a function","level":"error","timestamp":"2020-04-19T22:21:37.599Z"}
+{"message":"   Status: 500 - usersService.addUser is not a function","level":"error","timestamp":"2020-04-19T22:21:37.604Z"}
+{"message":"   Status: 500 - Cannot read property 'toResponse' of undefined","level":"error","timestamp":"2020-04-19T22:21:37.894Z"}
+{"message":"   Status: 500 - Cannot read property 'toResponse' of undefined","level":"error","timestamp":"2020-04-19T22:21:37.956Z"}
+{"message":"   Status: 500 - Board is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.959Z"}
+{"message":"   Status: 500 - Board is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.961Z"}
+{"message":"   Status: 500 - boardService.updateBoardById is not a function","level":"error","timestamp":"2020-04-19T22:21:37.964Z"}
+{"message":"   Status: 500 - Board is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.966Z"}
+{"message":"   Status: 500 - Board is not a constructor","level":"error","timestamp":"2020-04-19T22:21:37.968Z"}
+{"message":"   Status: 500 - boardService.deleteBoardById is not a function","level":"error","timestamp":"2020-04-19T22:21:37.971Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:39:25.888Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:39:26.196Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:39:26.374Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:39:27.233Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:39:27.484Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:39:27.490Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:39:27.492Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:39:27.494Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:39:27.497Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:40:19.946Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:40:20.364Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:40:20.560Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:40:20.674Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:40:21.017Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:40:21.022Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:40:21.024Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:40:21.025Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:40:21.027Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:42:41.554Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:42:41.892Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:42:42.062Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:42:42.924Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:42:43.185Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:42:43.188Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:42:43.189Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:42:43.191Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:42:43.192Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:46:15.780Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:46:16.123Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:46:16.317Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:46:17.103Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:46:17.368Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:46:17.370Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:46:17.375Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:46:17.377Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:46:17.378Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:48:08.949Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:48:09.289Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:48:09.477Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:48:09.616Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:48:10.592Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:48:10.594Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:48:10.595Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:48:10.598Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:48:10.599Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:49:05.143Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:49:05.469Z"}
+{"message":"   Status: 500 - usersRepo is not defined","level":"error","timestamp":"2020-04-19T22:49:05.662Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:05.749Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:06.730Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:06.731Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:06.734Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:06.735Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:06.736Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:49:57.935Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:49:58.338Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:58.428Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:49:58.597Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:59.777Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:59.783Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:59.790Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:59.800Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:49:59.805Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:50:45.311Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:50:45.679Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:50:45.923Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:50:45.935Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:50:47.024Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:50:47.034Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:50:47.037Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:50:47.040Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:50:47.042Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:52:10.857Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:52:11.254Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:11.449Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:52:11.513Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:12.604Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:12.609Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:12.611Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:12.612Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:12.613Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:52:54.132Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:52:54.530Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:54.699Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:52:54.795Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:55.917Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:55.921Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:55.923Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:55.924Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:52:55.927Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:53:23.483Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:53:23.854Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:53:24.118Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:53:24.121Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:53:25.242Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:53:25.244Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:53:25.247Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:53:25.250Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:53:25.252Z"}
+{"message":"   Status: 500 - Cannot destructure property '_id' of 'board' as it is undefined.","level":"error","timestamp":"2020-04-19T22:54:08.768Z"}
+{"message":"   Status: 500 - Cannot destructure property '_id' of 'board' as it is undefined.","level":"error","timestamp":"2020-04-19T22:54:09.146Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:54:09.315Z"}
+{"message":"   Status: 500 - Cannot destructure property '_id' of 'board' as it is undefined.","level":"error","timestamp":"2020-04-19T22:54:09.402Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:54:10.500Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:54:10.502Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:54:10.504Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:54:10.506Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:54:10.507Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:55:02.443Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:55:02.845Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:03.022Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:55:03.106Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:04.201Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:04.204Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:04.206Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:04.209Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:04.211Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:55:55.526Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:55:55.903Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:56.083Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:55:56.130Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:57.232Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:57.234Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:57.236Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:57.238Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:55:57.239Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:58:26.147Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:58:26.530Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:58:26.698Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T22:58:26.786Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:58:27.916Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:58:27.918Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:58:27.923Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:58:27.925Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T22:58:27.928Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T23:01:48.586Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T23:01:48.969Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T23:01:49.193Z"}
+{"message":"   Status: 404 - Board not found","level":"error","timestamp":"2020-04-19T23:01:49.223Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T23:01:50.289Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T23:01:50.291Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T23:01:50.294Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T23:01:50.296Z"}
+{"message":"   Status: 404 - Task not found","level":"error","timestamp":"2020-04-19T23:01:50.298Z"}
