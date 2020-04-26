@@ -10,7 +10,7 @@ const addBoard = async board => {
 };
 
 const getBoardById = async id => {
-  const board = await Board.findOne({ id });
+  const board = await Board.findById(id);
   if (board) {
     return board;
   }
